@@ -1,6 +1,12 @@
 # AWS Cloudformation
 
-Launches a Lambda function to retrieve Etcd Tokens
+Launches a Lambda function to retrieve Etcd Tokens.
+
+### Requirements
+
+At Stockflare, we test & deploy via Drone. The Drone configuration for this repository creates an asset for us inside an S3 Resources Bucket specific to the build environment. *If you're looking at this and not from Stockflare, basically the Cloudformation expects a resource at the following location:*
+
+`s3://<S3Bucket>.s3.amazonaws.com/lambda/<FunctionPackage>_<FunctionVersion>.zip`
 
 ### Dependencies
 
