@@ -1,7 +1,7 @@
 {
   "name": "lambda-etcd-token",
   "description": "Lambda function to retrieve an Etcd Token",
-  "version": "0.2.4",
+  "version": "0.1.3",
   "private": "true",
   "dependencies": {
   },
